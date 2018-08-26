@@ -1,0 +1,58 @@
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+
+body
+p
+{
+    color: blue; font-size: 2em;
+    box-shadow: 6px 6px 0px black inset;
+}
+p:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+h1
+{
+    color: red; text-align: center;
+    opacity: 0.6;
+}
+h2
+{
+    color: black;
+}
+ul
+{
+    color: green; font-size: 4em; font-family: "cac_champagneregular"; font-style: italic; font-weight: bold;
+}
+.titre
+{
+    color: blue; font-size: 3em; font-family: "comic sans ms"
+}
+
+.imagecapucin
+
+{
+	float: left;
+	border: 30px black groove;
+}
+
+.imageflottante
+{
+	float: left;
+}
+.dessous
+{
+	clear: both;
+}
+mark
+{
+	background-color: #2E1606;
+	color: red;
+}
